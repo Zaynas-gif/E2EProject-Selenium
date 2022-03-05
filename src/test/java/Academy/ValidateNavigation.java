@@ -31,7 +31,7 @@ public class ValidateNavigation extends base {
 
 	@Test
 	
-	public void basePageNavigation() throws IOException 
+	public void validateAppNavBar() throws IOException 
 	{
 	
 		//one is inheritance

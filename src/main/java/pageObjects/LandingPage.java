@@ -11,7 +11,8 @@ public class LandingPage {
 	By signin= By.xpath("//span[normalize-space()='Login']");
 	By title= By.cssSelector("div[class='text-center'] h2");
 	By NavBar= By.cssSelector(".nav.navbar-nav.navbar-right");
-	
+	By Prac =By.xpath("//a[normalize-space()='Practice']");
+	By HomeB =By.xpath("//button[normalize-space()='Home']");
 	
 	
 	
@@ -38,6 +39,15 @@ public class LandingPage {
 	public WebElement GetNavBar()
 	{
 		return driver.findElement(NavBar);
+	}
+	
+	public WebElement getPrac()
+	{
+		return driver.findElement(Prac);
+	}
+	public WebElement getHome()
+	{
+		return driver.findElement(HomeB);
 	}
 
 

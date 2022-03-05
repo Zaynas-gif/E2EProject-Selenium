@@ -1,4 +1,5 @@
-09:33:25.691 [main] INFO  resources.base - Driver is initialized
-09:33:29.777 [main] INFO  resources.base - Navigated to Homepage
-09:33:29.930 [main] INFO  resources.base - Successfully validated Text message
-09:33:29.953 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+16:00:03.223 [main] INFO  resources.base - Restricted User
+16:00:04.887 [main] INFO  resources.base - Non restricted user
+16:00:05.491 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+16:00:09.150 [main] INFO  resources.base - Items has been selected
+16:00:18.294 [main] INFO  resources.base - Order has been placed

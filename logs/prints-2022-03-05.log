@@ -1,0 +1,6 @@
+15:59:48.500 [main] INFO  resources.base - Navigation Bar is displayed
+15:59:48.508 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+15:59:50.188 [main] INFO  resources.base - Driver is initialized
+15:59:55.253 [main] INFO  resources.base - Navigated to Homepage
+15:59:55.277 [main] INFO  resources.base - Successfully validated Text message
+15:59:55.278 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
