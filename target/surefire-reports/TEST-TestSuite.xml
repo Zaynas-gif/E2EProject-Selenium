@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="38.098" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="44.28" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -20,7 +20,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.4\bin"/>
-    <property name="sun.java.command" value="C:\Users\zilvi\AppData\Local\Temp\surefire12962150582197313105\surefirebooter17559349586511186884.jar C:\Users\zilvi\AppData\Local\Temp\surefire12962150582197313105 2022-03-05T15-59-39_439-jvmRun1 surefire14710498311907158045tmp surefire_015660225861941216294tmp"/>
+    <property name="sun.java.command" value="C:\Users\zilvi\AppData\Local\Temp\surefire492996451209523854\surefirebooter2319974408430896919.jar C:\Users\zilvi\AppData\Local\Temp\surefire492996451209523854 2022-03-06T16-55-25_033-jvmRun1 surefire102565876420425857tmp surefire_01971512327289705867tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\zilvi\eclipse-workspace\E2EProject\target\test-classes;C:\Users\zilvi\eclipse-workspace\E2EProject\target\classes;C:\Users\zilvi\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\zilvi\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\zilvi\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\zilvi\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\zilvi\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\zilvi\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\zilvi\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\zilvi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.2\selenium-java-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.1.2\selenium-api-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.1.2\selenium-chrome-driver-4.1.2.jar;C:\Users\zilvi\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\zilvi\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\zilvi\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\zilvi\.m2\repository\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar;C:\Users\zilvi\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\zilvi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\zilvi\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\zilvi\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\zilvi\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.2\selenium-chromium-driver-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.2\selenium-json-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.2\selenium-devtools-v85-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.2\selenium-devtools-v95-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.2\selenium-devtools-v96-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v97\4.1.2\selenium-devtools-v97-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.2\selenium-edge-driver-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.2\selenium-firefox-driver-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.2\selenium-firefox-xpi-driver-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.2\selenium-ie-driver-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.2\selenium-opera-driver-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.1.2\selenium-remote-driver-4.1.2.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-buffer\4.1.73.Final\netty-buffer-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-codec-http\4.1.73.Final\netty-codec-http-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-codec\4.1.73.Final\netty-codec-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-handler\4.1.73.Final\netty-handler-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-tcnative-classes\2.0.46.Final\netty-tcnative-classes-2.0.46.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-common\4.1.73.Final\netty-common-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.73.Final\netty-transport-classes-epoll-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.73.Final\netty-transport-classes-kqueue-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-transport-native-epoll\4.1.73.Final\netty-transport-native-epoll-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.73.Final\netty-transport-native-kqueue-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.73.Final\netty-transport-native-unix-common-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-transport\4.1.73.Final\netty-transport-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-resolver\4.1.73.Final\netty-resolver-4.1.73.Final.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-api\1.10.1\opentelemetry-api-1.10.1.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-context\1.10.1\opentelemetry-context-1.10.1.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.10.1\opentelemetry-exporter-logging-1.10.1.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.10.1-alpha\opentelemetry-sdk-metrics-1.10.1-alpha.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.10.1-alpha\opentelemetry-sdk-logs-1.10.1-alpha.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.10.1\opentelemetry-sdk-common-1.10.1.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.10.1\opentelemetry-sdk-extension-autoconfigure-spi-1.10.1.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.10.1-alpha\opentelemetry-sdk-extension-autoconfigure-1.10.1-alpha.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.10.1\opentelemetry-sdk-trace-1.10.1.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.10.1\opentelemetry-sdk-1.10.1.jar;C:\Users\zilvi\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.10.1-alpha\opentelemetry-semconv-1.10.1-alpha.jar;C:\Users\zilvi\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\zilvi\.m2\repository\net\bytebuddy\byte-buddy\1.12.7\byte-buddy-1.12.7.jar;C:\Users\zilvi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\zilvi\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\zilvi\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\zilvi\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\zilvi\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\zilvi\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.1.2\selenium-http-4.1.2.jar;C:\Users\zilvi\.m2\repository\net\jodah\failsafe\2.4.4\failsafe-2.4.4.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.2\selenium-safari-driver-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.1.2\selenium-support-4.1.2.jar;C:\Users\zilvi\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\zilvi\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\zilvi\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\zilvi\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\zilvi\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\zilvi\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\zilvi\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\zilvi\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -35,7 +35,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\zilvi\AppData\Local\Temp\surefire12962150582197313105\surefirebooter17559349586511186884.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\zilvi\AppData\Local\Temp\surefire492996451209523854\surefirebooter2319974408430896919.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="9.0.4+11"/>
@@ -62,68 +62,69 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="53.0"/>
   </properties>
-  <testcase name="validateAppNavBar" classname="Academy.ValidateNavigation" time="0.015">
+  <testcase name="validateAppNavBar" classname="Academy.ValidateNavigation" time="0.043">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 53458
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 62779
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1646492383.628][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
-mars 05, 2022 3:59:43 EM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1646582130.018][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+mars 06, 2022 4:55:30 EM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-mars 05, 2022 3:59:43 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+mars 06, 2022 4:55:30 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 98, so returning the closest version found: 97
-mars 05, 2022 3:59:43 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+mars 06, 2022 4:55:30 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 98 of 97
 ]]></system-err>
   </testcase>
-  <testcase name="validateAppTitle" classname="Academy.validateTitle" time="0.003">
-    <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 62405
+  <testcase name="validateAppTitle" classname="Academy.validateTitle" time="0.008">
+    <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 61252
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1646492390.155][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
-mars 05, 2022 3:59:50 EM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1646582136.969][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+mars 06, 2022 4:55:37 EM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-mars 05, 2022 3:59:50 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+mars 06, 2022 4:55:37 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 98, so returning the closest version found: 97
-mars 05, 2022 3:59:50 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+mars 06, 2022 4:55:37 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 98 of 97
 ]]></system-err>
   </testcase>
-  <testcase name="basePageNavigation[nonrestricteduserbaskj.com, 123123, Restricted User](1)" classname="Academy.HomePage" time="6.635">
+  <testcase name="basePageNavigation[nonrestricteduserbaskj.com, 123123, Restricted User](1)" classname="Academy.HomePage" time="7.572">
     <system-out><![CDATA[Restricted User]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 60929
+    <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 57120
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1646492396.927][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
-mars 05, 2022 3:59:56 EM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1646582144.239][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+mars 06, 2022 4:55:44 EM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-mars 05, 2022 3:59:56 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+mars 06, 2022 4:55:44 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 98, so returning the closest version found: 97
-mars 05, 2022 3:59:56 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+mars 06, 2022 4:55:44 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 98 of 97
 ]]></system-err>
   </testcase>
-  <testcase name="basePageNavigation[restricteduser@laksd.com, 4345345, Non restricted user](2)" classname="Academy.HomePage" time="1.884">
+  <testcase name="basePageNavigation[restricteduser@laksd.com, 4345345, Non restricted user](2)" classname="Academy.HomePage" time="2.321">
     <system-out><![CDATA[Non restricted user]]></system-out>
   </testcase>
-  <testcase name="addToCart" classname="Academy.Cart" time="12.185">
+  <testcase name="addToCart" classname="Academy.Cart" time="15.346">
     <system-out><![CDATA[Code applied ..!
+Order has completed and redirected to main page
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 56488
+    <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 65468
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1646492407.110][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
-mars 05, 2022 4:00:07 EM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1646582155.988][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+mars 06, 2022 4:55:56 EM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-mars 05, 2022 4:00:07 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+mars 06, 2022 4:55:56 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 98, so returning the closest version found: 97
-mars 05, 2022 4:00:07 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+mars 06, 2022 4:55:56 EM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 98 of 97
 ]]></system-err>
   </testcase>

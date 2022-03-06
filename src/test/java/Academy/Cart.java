@@ -10,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import org.testng.annotations.Test;
@@ -59,6 +60,24 @@ public class Cart extends base {
 			
 			driver.findElement(By.xpath("//button[normalize-space()='Place Order']")).click();
 			log.info("Order has been placed");
+			
+			
+			
+			WebElement staticDropdown = driver.findElement(By.xpath("//div[@class='wrapperTwo']//div//select"));
+			Select dropdown =new Select(staticDropdown);
+			dropdown.selectByVisibleText("Sweden");
+			
+			
+			WebElement checkbox = driver.findElement(By.xpath("//input[@type='checkbox']"));
+			if(!checkbox.isSelected())
+				checkbox.click();
+			
+			driver.findElement(By.xpath("//button[normalize-space()='Proceed']")).click();
+			
+			w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='products']")));
+			System.out.println("Order has completed and redirected to main page");
+			
+			
 		
 	}
 	
