@@ -51,7 +51,7 @@ public class Cart extends base {
 			//below whole code is called WebElement but By.xpath and the rest called locator
 			driver.findElement(By.xpath("//button[contains(text(),'PROCEED TO CHECKOUT')]")).click();
 			w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input.promoCode")));
-			driver.findElement(By.cssSelector("input.promoCode")).sendKeys("rahulshettyacademy");
+			driver.findElement(By.cssSelector("input.promoCode")).sendKeys("addcupon");
 			driver.findElement(By.cssSelector("button[class='promoBtn']")).click();
 			//explicit wait 
 			
@@ -77,6 +77,8 @@ public class Cart extends base {
 			w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='products']")));
 			System.out.println("Order has completed and redirected to main page");
 			
+			
+			driver.quit();			
 			
 		
 	}

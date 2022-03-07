@@ -1,5 +1,6 @@
-16:55:51.289 [main] INFO  resources.base - Restricted User
-16:55:53.480 [main] INFO  resources.base - Non restricted user
-16:55:54.198 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
-16:56:00.466 [main] INFO  resources.base - Items has been selected
-16:56:09.956 [main] INFO  resources.base - Order has been placed
+09:14:05.413 [main] INFO  resources.base - User Connected
+09:14:07.520 [main] INFO  resources.base - User Connected
+09:14:08.273 [AsyncHttpClient-1-10] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+09:14:11.674 [main] INFO  resources.base - Items has been selected
+09:14:21.026 [main] INFO  resources.base - Order has been placed
+09:14:21.248 [AsyncHttpClient-1-13] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26

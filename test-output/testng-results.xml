@@ -1,17 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-06T16:52:54 CET" name="Default suite" finished-at="2022-03-06T16:53:08 CET" duration-ms="14624">
+  <suite started-at="2022-03-07T09:11:50 CET" name="Suite" finished-at="2022-03-07T09:12:21 CET" duration-ms="31105">
     <groups>
     </groups>
-    <test started-at="2022-03-06T16:52:54 CET" name="Default test" finished-at="2022-03-06T16:53:08 CET" duration-ms="14624">
+    <test started-at="2022-03-07T09:11:50 CET" name="App Testing" finished-at="2022-03-07T09:11:50 CET" duration-ms="7">
+    </test> <!-- App Testing -->
+    <test started-at="2022-03-07T09:11:50 CET" name="Validating navigation Bar" finished-at="2022-03-07T09:11:55 CET" duration-ms="5439">
+      <class name="Academy.ValidateNavigation">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidateNavigation@1813f3e9]" started-at="2022-03-07T09:11:50 CET" name="initialize" finished-at="2022-03-07T09:11:55 CET" duration-ms="5222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAppNavBar()[pri:0, instance:Academy.ValidateNavigation@1813f3e9]" started-at="2022-03-07T09:11:55 CET" name="validateAppNavBar" finished-at="2022-03-07T09:11:55 CET" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavBar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ValidateNavigation@1813f3e9]" started-at="2022-03-07T09:11:55 CET" name="teardown" finished-at="2022-03-07T09:11:55 CET" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateNavigation -->
+    </test> <!-- Validating navigation Bar -->
+    <test started-at="2022-03-07T09:11:55 CET" name="Validating title in the page" finished-at="2022-03-07T09:12:00 CET" duration-ms="4804">
+      <class name="Academy.validateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.validateTitle@3ff57625]" started-at="2022-03-07T09:11:55 CET" name="initialize" finished-at="2022-03-07T09:12:00 CET" duration-ms="4651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAppTitle()[pri:0, instance:Academy.validateTitle@3ff57625]" started-at="2022-03-07T09:12:00 CET" name="validateAppTitle" finished-at="2022-03-07T09:12:00 CET" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.validateTitle@3ff57625]" started-at="2022-03-07T09:12:00 CET" name="teardown" finished-at="2022-03-07T09:12:00 CET" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- Validating title in the page -->
+    <test started-at="2022-03-07T09:12:00 CET" name="Validating User Login" finished-at="2022-03-07T09:12:09 CET" duration-ms="8496">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomePage@13d186db]" started-at="2022-03-07T09:12:00 CET" name="initialize" finished-at="2022-03-07T09:12:01 CET" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@13d186db]" started-at="2022-03-07T09:12:01 CET" name="basePageNavigation" data-provider="GetData" finished-at="2022-03-07T09:12:06 CET" duration-ms="5390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduserbaskj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@13d186db]" started-at="2022-03-07T09:12:06 CET" name="basePageNavigation" data-provider="GetData" finished-at="2022-03-07T09:12:09 CET" duration-ms="2353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@laksd.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4345345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.HomePage@13d186db]" started-at="2022-03-07T09:12:09 CET" name="teardown" finished-at="2022-03-07T09:12:09 CET" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Validating User Login -->
+    <test started-at="2022-03-07T09:12:09 CET" name="Add Products to the Cart" finished-at="2022-03-07T09:12:21 CET" duration-ms="11961">
       <class name="Academy.Cart">
-        <test-method signature="addToCart()[pri:0, instance:Academy.Cart@1433046b]" started-at="2022-03-06T16:52:54 CET" name="addToCart" finished-at="2022-03-06T16:53:08 CET" duration-ms="14592" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:Academy.Cart@3fbfa96]" started-at="2022-03-07T09:12:09 CET" name="addToCart" finished-at="2022-03-07T09:12:21 CET" duration-ms="11959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
       </class> <!-- Academy.Cart -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Add Products to the Cart -->
+  </suite> <!-- Suite -->
 </testng-results>
